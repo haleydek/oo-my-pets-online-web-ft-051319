@@ -1,10 +1,11 @@
 class Owner
-  attr_accessor :pets
+  attr_accessor :pets, :species
   @@all = []
   counter = 0
   
-  def initialize(pets)
+  def initialize(pets, species)
     @pets = { fishes: [], cats: [], dogs: [] }
+    @species = "human"
     self.class.all << self
   end
   
@@ -33,6 +34,26 @@ class Owner
   def buy_fish(name)
     new_fish = Fish.new(name)
     @pets[:fishes] << new_fish
+  end
+  
+  def play_with_cats
+    
+  end
+  
+  def walk_dogs
+    
+  end
+  
+  def feed_fish
+    
+  end
+  
+  def sell_pets
+    
+  end
+  
+  def list_pets
+    
   end
   
 end
