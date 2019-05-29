@@ -5,10 +5,11 @@ class Owner
   
   def initialize(pets)
     @pets = { fishes: [], cats: [], dogs: [] }
+    self.class.all << self
   end
   
   def self.all
-    self.class.all << self
+    @@all
   end
   
   def buy_cat(name)
