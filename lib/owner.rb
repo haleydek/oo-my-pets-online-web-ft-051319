@@ -8,7 +8,7 @@ class Owner
     @pets = {}
   end
   
-  def name(name)
+  def name=(name)
     @name = name
   end
   
