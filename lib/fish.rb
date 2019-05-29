@@ -1,9 +1,9 @@
 class Fish
-  attr_accessor :name
-  attr_reader :mood
+  attr_accessor :mood
+  attr_reader :name
   
-  def initialize(mood)
-    @mood = mood
-    @name
+  def initialize(name)
+    @name = name
+    @mood
   end
 end
