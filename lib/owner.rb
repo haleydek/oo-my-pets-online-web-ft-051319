@@ -8,7 +8,7 @@ class Owner
   end
   
   def self.all
-    @@all << self
+    self.class.all << self
   end
   
   def buy_cat(name)
