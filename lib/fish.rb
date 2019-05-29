@@ -2,7 +2,7 @@ class Fish
   attr_writer :name
   attr_reader :mood
   
-  def initialize(name, mood)
+  def initialize(mood)
     @name
     @mood = mood
   end
