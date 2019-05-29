@@ -1,12 +1,12 @@
 require 'pry'
 
 class Owner
-  attr_accessor :name
-  attr_reader :species, :pets
+  attr_accessor :pets, :name
+  attr_reader :species
   @@all = []
   counter = 0
   
-  def initialize
+  def initialize(pets)
     @pets = { fishes: [], cats: [], dogs: [] }
     @species = "human"
     self.class.all << self
