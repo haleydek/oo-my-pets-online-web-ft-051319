@@ -52,7 +52,7 @@ class Owner
   end
   
   def feed_fish
-    @pets[:fishes].each { |dog| dog.mood="happy" }
+    @pets[:fishes].each { |fish| fish.mood="happy" }
   end
   
   def sell_pets
