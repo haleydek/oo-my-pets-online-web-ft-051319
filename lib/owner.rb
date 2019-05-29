@@ -69,7 +69,7 @@ class Owner
     dog_count = @pets[:dogs].size
     cat_count = @pets[:cats].size
     
-    puts "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
+    return "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
   
 end
