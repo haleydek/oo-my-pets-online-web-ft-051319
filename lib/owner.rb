@@ -13,7 +13,7 @@ class Owner
   end
   
   def self.count
-    counter
+    @@all.size
   end
   
   def buy_cat(name)
