@@ -3,10 +3,7 @@ class Owner
   attr_reader :name
   @@all = []
   counter = 0
-  
-  def initialize
-    @pets = {}
-  end
+
   
   def name=(name)
     @name = name
