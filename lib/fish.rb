@@ -1,4 +1,4 @@
 class Fish
-  attr_writer :mood
-  attr_reader :name
+  attr_writer :name
+  attr_reader :mood
 end
